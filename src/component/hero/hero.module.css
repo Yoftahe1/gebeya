@@ -1,0 +1,31 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 60px);
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  background-image: url("../../assets/hero/hero4.png");
+  background-size: cover;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+h1:nth-child(2) {
+  color: rgb(56, 141, 56);
+}
+.button {
+  width: max-content;
+  padding: 10px 20px;
+  color: rgb(56, 141, 56);
+  background-color: transparent;
+  border: 1px solid rgb(56, 141, 56);
+  text-decoration: none;
+}
+.button:hover {
+  background-color: rgb(56, 141, 56);
+  color: white;
+}

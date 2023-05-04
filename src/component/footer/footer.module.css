@@ -1,0 +1,17 @@
+.footer {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: #111111;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.element {
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
